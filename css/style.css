@@ -32,7 +32,13 @@ main {
     color: #ff8f00;
 }
 
+.nav a {
+    color: #5b5858;
+}
 
+.dropdown-toggle::after {
+    content: none;
+}
 
 
 
