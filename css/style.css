@@ -40,8 +40,6 @@ main {
     content: none;
 }
 
-
-
 /* main rules */
 
 /* ms_main_left rules */
@@ -67,6 +65,7 @@ main {
 
 .ms_slot_link {
     margin-bottom: 20px;
+    padding: 5px 10px;
 }
 
 .ms_slot_link > a {
@@ -77,6 +76,10 @@ main {
 .ms_name_link {
     margin-left: 10px;
     display: none;
+}
+
+.ms_slot_link:hover {
+    background-color: #838d95;
 }
 
 /* ms_main_right rules */
