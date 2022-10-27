@@ -40,6 +40,16 @@ main {
     content: none;
 }
 
+.dropdown-menu.show {
+    right: 0;
+    left: initial;
+}
+
+.ms_hover_none:hover {
+    color: #5b5858;
+    cursor: default;
+}
+
 /* main rules */
 
 /* ms_main_left rules */
