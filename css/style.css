@@ -14,6 +14,24 @@ main {
 }
 
 /* header rules */
+.ms_logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.form-control {
+    background-color: #e9ecef;
+}
+
+.form-control:focus {
+    background-color: #e9ecef;
+    border: none;
+}
+
+.fa-bell {
+    color: #ff8f00;
+}
+
 
 
 
@@ -50,11 +68,8 @@ main {
     text-decoration: none;
 }
 
-.ms_slot_link > i {
-    margin-right: 10px;
-}
-
 .ms_name_link {
+    margin-left: 10px;
     display: none;
 }
 
