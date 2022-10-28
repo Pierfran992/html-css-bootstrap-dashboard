@@ -115,10 +115,15 @@ main {
     font-size: 3rem;
 }
 
-.ms_btm_info {
+.ms_btn_info {
     padding: 5px 10px;
     background-color: #165bba;
     border-radius: 30px;
+}
+
+.ms_btn_info:hover {
+    cursor: pointer;
+    background-color: #294788;
 }
 
 .ms_number_student_online {
@@ -176,6 +181,26 @@ th, td {
     padding: 10px;
     border: solid 1px #6c757d;
     border-radius: 10px;
+}
+
+.fa-pencil:hover, .fa-trash:hover {
+    color: #fff;
+    background-color: #6c757d;
+    cursor: pointer;
+}
+
+.form-check {
+    font-size: 0.8rem;
+}
+
+.ms_table_graphic {
+    font-size: 0.8rem;
+}
+
+.ms_img_graphic {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 
