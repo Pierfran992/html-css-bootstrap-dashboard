@@ -146,6 +146,33 @@ main {
     border-radius: 50%;
 }
 
+.ms_state_class {
+    font-size: 0.8rem;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.ms_state_class.done {
+    background-color: #198754;
+}
+
+.ms_state_class.process {
+    background-color: #ffc107;
+}
+
+.ms_state_class.failed {
+    background-color: #dc3545;
+}
+
+.fa-pencil, .fa-trash {
+    color: #6c757d;
+    padding: 10px;
+    border: solid 1px #6c757d;
+    border-radius: 10px;
+}
+
+
 /* responsive rules */
 @media screen and (min-width: 992px) {
 
